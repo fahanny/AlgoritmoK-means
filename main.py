@@ -16,7 +16,7 @@ sns.set(style="whitegrid", palette="muted", font_scale=1.2)
 
 # Caminhos relativos
 base_dir = os.path.dirname(os.path.abspath(__file__))  # Diretório do script
-dataset_folder = os.path.join(base_dir, "UCI HAR Dataset")
+dataset_folder = os.path.join(base_dir, "data", "UCI HAR Dataset")
 features_path = os.path.join(dataset_folder, "features.txt")
 X_train_path = os.path.join(dataset_folder, "train", "X_train.txt")
 y_train_path = os.path.join(dataset_folder, "train", "y_train.txt")
